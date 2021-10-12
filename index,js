@@ -1,0 +1,32 @@
+//Remove comments to test out the code.
+
+
+/*
+//This returns an object with properties a and b. Same as writing: var numberF{a:2,b:4}
+//To access the values in the properties, use same syntax as any other object.
+numberF = ()=>{
+    var a = 2;
+    var b = 4;
+        return {b,a};
+}
+
+//logging numberF without parenthesis, logs undefined.
+console.log(numberF);//undefined
+//logging numberF with parenthesis, logs the object.
+console.log(numberF());//object
+//logging numberF with parenthesis and a property, logs the property.
+console.log(numberF().a);//2
+console.log(numberF().b);//4
+//logging numberF without parenthesis and a property, logs undefined.
+console.log(numberF.a);//undefined
+console.log(numberF.b);//undefined
+//Assigning the object returned by the function to a variable.
+var returnedObject = numberF();
+console.log(returnedObject);//object
+console.log(returnedObject.a);//2
+*/
+
+
+/*
+//Ways to create functions
+*/
